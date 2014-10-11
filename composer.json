@@ -1,0 +1,14 @@
+{
+    "name": "zibra/pimcore-migration",
+    "description": "",
+    "authors": [
+        {
+            "name": "Achim Kramer",
+            "email": "achim@zibra.de"
+        }
+    ],
+    "minimum-stability" : "dev",
+    "require": {
+        "phpunit/phpunit": "4.4.*@dev"
+    }
+}

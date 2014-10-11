@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit colors="true" bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="PimcoreMigration Test Suite">
+            <directory>./tests/PimcoreMigration/</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist>
+            <directory>./lib/</directory>
+        </whitelist>
+    </filter>
+</phpunit>
